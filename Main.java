@@ -60,10 +60,9 @@ public class Main {
         Product p1 = new Product();
         p1.setName("chair");
         p1.setPrice(500.0);
-        
+
         System.out.println("Product Name : " + p1.getName());
         System.out.println("Product Price : " + p1.getPrice());
-
         System.out.println("*************************");
 
         Product p2 = new Product();
@@ -77,9 +76,8 @@ public class Main {
         System.out.println("Product Price : " + p2.getPrice());
         System.out.println("Brand : " + p2e.getBrand());
         System.out.println("Model : " + p2e.getModel());
-
         System.out.println("*************************");
-        
+    
         Product p3 = new Product();
         p3.setName("Iphone");
         p3.setPrice(40000.0);
@@ -94,12 +92,8 @@ public class Main {
         System.out.println("Brand : " + p3e.getBrand());
         System.out.println("Model : " + p3e.getModel());
         System.out.println("OperatingSystem : " + p3p.getOperatingSystem());
-
-
-
         System.out.println("*************************");
         
-
         Product p4 = new Product();
         p4.setName("OOP programming");
         p4.setPrice(250.0);
@@ -111,6 +105,5 @@ public class Main {
         System.out.println("Product Price : " + p4.getPrice());
         System.out.println("Author : " + p4b.getAuthor());
         System.out.println("Number of Pages : " + p4b.getPages());
-        
     }
 }
